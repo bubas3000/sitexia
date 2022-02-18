@@ -7,7 +7,7 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Nuptial &mdash; 100% Free Fully Responsive HTML5 Template by FREEHTML5.co</title>
+	<title>Maria e Tomás</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Free HTML5 Template by FREEHTML5.CO" />
 	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
@@ -65,7 +65,33 @@
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
-
+	<header id="fh5co-header-section" class="sticky-banner">
+		<div class="container">
+			<div class="nav-header">
+				<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle dark"><i></i></a>
+				<h1 id="fh5co-logo"><a href="index.html">Maria &amp; Tomás</a></h1>
+				<!-- START #fh5co-menu-wrap -->
+				<nav id="fh5co-menu-wrap" role="navigation">
+					<ul class="sf-menu" id="fh5co-primary-menu">
+						<!--<li><a href="index.html" >Home</a></li>-->
+						<!--<li>
+							<a href="groom-bride.html" class="fh5co-sub-ddown">Groom &amp; Bride</a>
+							<ul class="fh5co-sub-menu">
+								<li><a href="#">Dropdown Menu 1</a></li>
+								<li><a href="#">Dropdown Menu 2</a></li>
+								<li><a href="#">Dropdown Menu 3</a></li>
+								<li><a href="#">Dropdown Menu 4</a></li>
+							</ul>
+						</li>-->
+						<li class="active"><a href="when-where.html">O Dia</a></li>
+						<li><a href="guest.html">Onde Ficar</a></li>
+						<li><a href="gallery.html">Gallery</a></li>
+						<li><a href="blog.html">Blog</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</header>
 	</head>
 	<body>
 		<div id="fh5co-wrapper">
@@ -73,36 +99,10 @@
 	
 
 
-			<header id="fh5co-header-section" class="sticky-banner">
-				<div class="container">
-					<div class="nav-header">
-						<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle dark"><i></i></a>
-						<h1 id="fh5co-logo"><a href="index.html">Maria &amp; Tomás</a></h1>
-						<!-- START #fh5co-menu-wrap -->
-						<nav id="fh5co-menu-wrap" role="navigation">
-							<ul class="sf-menu" id="fh5co-primary-menu">
-								<!--<li><a href="index.html" >Home</a></li>
-								<li>
-									<a href="groom-bride.html" class="fh5co-sub-ddown">Groom &amp; Bride</a>
-									<ul class="fh5co-sub-menu">
-										<li><a href="#">Dropdown Menu 1</a></li>
-										<li><a href="#">Dropdown Menu 2</a></li>
-										<li><a href="#">Dropdown Menu 3</a></li>
-										<li><a href="#">Dropdown Menu 4</a></li>
-									</ul>
-								</li>-->
-								<li class="active"><a href="when-where.html">O Dia</a></li>
-								<li><a href="guest.html">Onde Ficar</a></li>
-								<li><a href="gallery.html">Gallery</a></li>
-								<li><a href="blog.html">Blog</a></li>
-							</ul>
-						</nav>
-					</div>
-				</div>
-			</header>
+
 		<div class="fh5co-hero" data-section="home">
 			<div class="fh5co-overlay"></div>
-			<div class="fh5co-cover text-center" data-stellar-background-ratio="0.5" style="background-image: url(images/Xia.png);">
+			<div class="fh5co-cover text-center" data-stellar-background-ratio="0.5" style="background-image: url(images/XIA3.jpeg);"-->
 				<div class="display-t">
 					<div class="display-tc">
 						<div class="container">
@@ -119,7 +119,114 @@
 			</div>
 		</div>
 
+		<div id="fh5co-when-where" class="fh5co-section-gray">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 text-center heading-section animate-box">
+						<h2>O Dia</h2>
+					</div>
+				</div>
+				<div class="row row-bottom-padded-md">
+					<div class="col-md-6 text-center animate-box">
+						<div class="wedding-events">
+							<div class="ceremony-bg" style="background-image: url(images/igreja.jpg);"></div>
+							<div class="desc">
+								<h3>Igreja</h3>
+								<p><strong>Igreja de Nossa Senhora dos Prazeres</strong></p>
+								<p><strong> <i class="icon-map"></i> Largo Divino Espírito Santo, 2580-081 Aldeia Galega da Merceana</strong></p>
+								<!--<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>-->
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 text-center animate-box">
+						<div class="wedding-events">
+							<div class="ceremony-bg" style="background-image: url(images/festa.jfif);"></div>
+							<div class="desc">
+								<h3>Festa</h3>
+								<p><strong>Quinta de D. Carlos</strong></p>
+								<p><strong><i class="icon-map"></i> N9, 3 Carvoeira, corrigir isto para ficar do mesmo tamanho</strong></p>
+								<!--<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>-->
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12 text-center">
+						<div class="mapouter"><div class="gmap_canvas"><iframe width="764" height="350" id="gmap_canvas" src="https://www.google.com/maps/d/u/0/embed?mid=1CF5b_Urwcbwf3eirijxJob_egtN2VT7m&ehbc=2E312F" frameborder="0" scrolling="no" marginheight="0" marginwidth="20"></iframe></div></div>
+					</div>
+				</div>
+				<!--
+				<div class="row">
+					<div class="col-md-12">
+						<div id="map" class="fh5co-map">
+							
+						</div>
+					</div>
+				</div>
+				-->
+				<div id="fh5co-when-where" class="fh5co-section-gray">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-8 col-md-offset-2 text-center heading-section animate-box">
+								<h2>O Futuro</h2>
+							</div>
+						</div>
+						<div class="row row-bottom-padded-md">
+							<div class="col-md-6 text-center animate-box">
+								<div class="wedding-events">
+									<div class="ceremony-bg" style="background-image: url(images/casa1.jpg);"></div>
+									<div class="desc">
+										<h3>Casa</h3>
+										<p><strong>Comprar casa blablabla</strong></p>
+										<!--<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>-->
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 text-center animate-box">
+								<div class="wedding-events">
+									<div class="ceremony-bg" style="background-image: url(images/safari.jpg);"></div>
+									<div class="desc">
+										<h3>Lua de Mel</h3>
+										<p><strong>Lua de mel blablabla</strong></p>
+										<!--<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>-->
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 		
+			</div>
+			<div id="fh5co-started" style="background-image:url(images/dj.jpg);">
+					<div class="container">
+						<div class="row animate-box">
+							<div class="col-md-8 col-md-offset-2 text-center heading-section">
+								<h2>Música que não pode faltar?</h2>
+							</div>
+						</div>
+						<div class="row animate-box">
+							<div class="col-md-10 col-md-offset-1">
+								<form class="form-inline">
+									<div class="col-md-4 col-sm-4">
+										<div class="form-group">
+											<label for="name" class="sr-only">Música</label>
+											<input type="name" class="form-control" id="name" placeholder="Música">
+										</div>
+									</div>
+									<div class="col-md-4 col-sm-4">
+										<div class="form-group">
+											<label for="email" class="sr-only">Banda/Artista</label>
+											<input type="email" class="form-control" id="email" placeholder="Banda/Artista">
+										</div>
+									</div>
+									<div class="col-md-4 col-sm-4">
+										<button type="submit" class="btn btn-primary btn-block">Sugerir</button>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+		</div>
 
 		<!-- end:header-top -->
 		
@@ -215,7 +322,30 @@
 				</div>
 			</div>
 		</footer>-->
-
+		
+		<footer>
+			<div id="footer">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12 text-center">
+							<h2>Maria &amp; Tomás</h2>
+							<p><strong>Maria: +351 919 638 879</strong></p>
+							<p><strong>Tomás: +351 913 447 666</strong></p>
+						</div>
+						<!--<div class="col-md-6 col-md-offset-3 text-center">
+							<p class="fh5co-social-icons">
+								<a href="#"><i class="icon-twitter2"></i></a>
+								<a href="#"><i class="icon-facebook2"></i></a>
+								<a href="#"><i class="icon-instagram"></i></a>
+								<a href="#"><i class="icon-dribbble2"></i></a>
+								<a href="#"><i class="icon-youtube"></i></a>
+							</p>
+							<p>Copyright 2016 Free Html5 <a href="#">Module</a>. All Rights Reserved. <br>Made with <i class="icon-heart3"></i> by <a href="http://freehtml5.co/" target="_blank">Freehtml5.co</a> / Demo Images: <a href="https://unsplash.com/" target="_blank">Unsplash</a></p>
+						</div>-->
+					</div>
+				</div>
+			</div>
+		</footer>
 	
 
 	</div>
