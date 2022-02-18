@@ -102,7 +102,7 @@
 
 		<div class="fh5co-hero" data-section="home">
 			<div class="fh5co-overlay"></div>
-			<div class="fh5co-cover text-center" data-stellar-background-ratio="0.5" style="background-image: url(images/XIA3.jpeg);"-->
+			<div class="fh5co-cover text-center" data-stellar-background-ratio="0.5">
 				<div class="display-t">
 					<div class="display-tc">
 						<div class="container">
