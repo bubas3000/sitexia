@@ -150,7 +150,6 @@ figure {
   position: relative;
   height: 800px;
   width: 100%;
-  background-image: url(images/XIA3.jpeg);
 }
 
 
@@ -175,7 +174,7 @@ figure {
 
 .fh5co-cover {
   background-size: cover;
-  background-image: image_url(../images/XIA3.jpeg);
+  background-image: image-url(../images/XIA3.jpeg);
   position: relative;
 }
 
@@ -184,7 +183,7 @@ figure {
     height: inherit;
     padding: 3em 0;
     background-size: cover;
-    background-image: image_url(../images/XIA3alto.jpeg);
+    background-image: image-url(../images/XIA3alto.jpeg);
     position: relative;
   }
 }
