@@ -69,7 +69,7 @@
 		<div class="container">
 			<div class="nav-header">
 				<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle dark"><i></i></a>
-				<h1 id="fh5co-logo"><a href="index.html">Maria &amp; Tomás</a></h1>
+				<h1 id="fh5co-logo"><a href="index.html">Maria e Tomás</a></h1>
 				<!-- START #fh5co-menu-wrap -->
 				<nav id="fh5co-menu-wrap" role="navigation">
 					<ul class="sf-menu" id="fh5co-primary-menu">
@@ -109,7 +109,7 @@
 							<div class="col-md-10 col-md-offset-1">
 								<div class="animate-box">
 									<!--<h1>The Wedding</h1>-->
-									<h2>Maria &amp; Tomás</h2>
+									<h2>Maria e Tomás</h2>
 									<p><span>21.05.2022</span></p>
 								</div>
 							</div>
@@ -176,7 +176,7 @@
 								<div class="wedding-events">
 									<div class="ceremony-bg" style="background-image: url(images/casa1.jpg);"></div>
 									<div class="desc">
-										<h3>Casa</h3>
+										<h3>A Nossa Casa</h3>
 										<p><strong>Comprar casa blablabla</strong></p>
 										<!--<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>-->
 									</div>
@@ -186,7 +186,7 @@
 								<div class="wedding-events">
 									<div class="ceremony-bg" style="background-image: url(images/safari.jpg);"></div>
 									<div class="desc">
-										<h3>Lua de Mel</h3>
+										<h3>A Nossa Viagem</h3>
 										<p><strong>Lua de mel blablabla</strong></p>
 										<!--<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>-->
 									</div>
@@ -328,7 +328,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12 text-center">
-							<h2>Maria &amp; Tomás</h2>
+							<h2>Maria e Tomás</h2>
 							<p><strong>Maria: +351 919 638 879</strong></p>
 							<p><strong>Tomás: +351 913 447 666</strong></p>
 						</div>
