@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -96,10 +95,6 @@
 	<body>
 		<div id="fh5co-wrapper">
 		<div id="fh5co-page">
-	
-
-
-
 		<div class="fh5co-hero" data-section="home">
 			<div class="fh5co-overlay"></div>
 			<div class="fh5co-cover text-center" data-stellar-background-ratio="0.5">
@@ -108,8 +103,8 @@
 						<div class="container">
 							<div class="col-md-10 col-md-offset-1">
 								<div class="animate-box">
-									<!--<h1>The Wedding</h1>-->
-									<h2>Maria e Tomás</h2>
+								<!--<h1>The Wedding</h1>-->
+									<h2>Maria <small style="color: white;">e</small> Tomás</h2>
 									<p><span>21.05.2022</span></p>
 								</div>
 							</div>
@@ -150,11 +145,13 @@
 						</div>
 					</div>
 				</div>
+				<!--
 				<div class="row">
 					<div class="col-md-12 text-center">
 						<div class="mapouter"><div class="gmap_canvas"><iframe width="764" height="350" id="gmap_canvas" src="https://www.google.com/maps/d/u/0/embed?mid=1CF5b_Urwcbwf3eirijxJob_egtN2VT7m&ehbc=2E312F" frameborder="0" scrolling="no" marginheight="0" marginwidth="20"></iframe></div></div>
 					</div>
 				</div>
+				-->
 				<!--
 				<div class="row">
 					<div class="col-md-12">
@@ -168,7 +165,10 @@
 					<div class="container">
 						<div class="row">
 							<div class="col-md-8 col-md-offset-2 text-center heading-section animate-box">
-								<h2>O Futuro</h2>
+								<h2>Presentes de Casamento</h2>
+								<p><strong>A melhor parte vai ser estarem connosco neste dia, tão felizes como nós.</strong> 
+									<p><strong>Estamos a montar a nossa casa, onde vamos começar a nossa família e onde vos queremos receber sempre.</strong>
+									<p><strong>Agradecemos toda a ajuda para que fique uma casa querida, pronta para as vossas visitas e onde vamos poder contar-vos tudo sobre a nossa viagem.</strong></p>
 							</div>
 						</div>
 						<div class="row row-bottom-padded-md">
@@ -176,18 +176,36 @@
 								<div class="wedding-events">
 									<div class="ceremony-bg" style="background-image: url(images/casa1.jpg);"></div>
 									<div class="desc">
-										<h3>A Nossa Casa</h3>
-										<p><strong>Comprar casa blablabla</strong></p>
+										<button class="btn btn-primary btn-block" onclick="openForm()">Casa</button>
 										<!--<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>-->
 									</div>
+								</div>
+								<div class="form-popup" id="myForm">
+									<form action="/action_page.php" class="form-container">
+									  <h3>Para que possamos agradecer</h3>
+								  
+									  <!--<label for="email"><b>Email</b></label>-->
+									  <input type="text" placeholder="Nome" name="nome" required>
+								  
+									  <!--<label for="psw"><b>Password</b></label>-->
+									  <input type="text" placeholder="Telemóvel" name="tlm" required>
+		
+									  <!--<label for="psw"><b>Password</b></label>-->
+									  <input type="text" placeholder="Email" name="email" required>
+		
+									  <!--<label for="psw"><b>Password</b></label>-->
+									  <input type="text" placeholder="Valor do Presente" name="presente" required>
+								  
+									  <button type="button" class="btn">Enviar</button>
+									  <button type="button" class="btn cancel" onclick="closeForm()">Cancelar</button>
+									</form>
 								</div>
 							</div>
 							<div class="col-md-6 text-center animate-box">
 								<div class="wedding-events">
 									<div class="ceremony-bg" style="background-image: url(images/safari.jpg);"></div>
 									<div class="desc">
-										<h3>A Nossa Viagem</h3>
-										<p><strong>Lua de mel blablabla</strong></p>
+										<button class="btn btn-primary btn-block" onclick="openForm()">Lua de Mel</button>
 										<!--<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>-->
 									</div>
 								</div>
@@ -197,7 +215,96 @@
 				</div>
 		
 			</div>
-			<div id="fh5co-started" style="background-image:url(images/dj.jpg);">
+			<style>
+				body {font-family: Cinzel;}
+				* {box-sizing: border-box;}
+				
+				/* The popup form - hidden by default */
+				.form-popup {
+				  display: none;
+				  position: fixed;
+				  bottom: 0;
+				  right: 15px;
+				  border: 3px solid #f1f1f1;
+				  z-index: 9;
+				}
+				
+				/* Add styles to the form container */
+				.form-container {
+				  width: 80%;
+				  height: 50%;
+				  margin-right: auto;
+				  margin-left: auto;
+				  padding: 10px;
+				  background-color: white;
+				}
+				
+				/* Full-width input fields */
+				.form-container input[type=text], .form-container input[type=password] {
+				  width: 100%;
+				  padding: 15px;
+				  margin: 5px 0 22px 0;
+				  border: none;
+				  color: white;
+				  background: #4a687069;
+				}
+				
+				/* When the inputs get focus, do something */
+				.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+				  background-color:#4a6870b4;
+				  outline: none;
+				}
+
+				.form-container ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  					color: rgba(255, 255, 255, 0.63);
+  					opacity: 1; /* Firefox */
+				}
+				
+				/* Set a style for the submit/login button */
+				.form-container .btn {
+				  background-color: #4a68704d;
+				  color: white;
+				  padding: 16px 20px;
+				  border: none;
+				  cursor: pointer;
+				  width: 50%;
+				  margin-bottom:10px;
+				  opacity: 0.8;
+				}
+				
+				/* Add a red background color to the cancel button */
+				.form-container .cancel {
+				  background-color: #4a6870;
+				}
+				
+				/* Add some hover effects to buttons */
+				.form-container .btn:hover, .open-button:hover {
+				  opacity: 1;
+				}
+				</style>
+				</head>
+				
+
+				
+				<script>
+				function openForm() {
+				  document.getElementById("myForm").style.display = "block";
+				}
+				
+				function closeForm() {
+				  document.getElementById("myForm").style.display = "none";
+				}
+				</script>
+				
+
+
+
+
+
+
+
+
+			<div id="fh5co-started" style="background-image:url(images/Xia5lado.jpeg);">
 					<div class="container">
 						<div class="row animate-box">
 							<div class="col-md-8 col-md-offset-2 text-center heading-section">
@@ -329,8 +436,8 @@
 					<div class="row">
 						<div class="col-md-12 text-center">
 							<h2>Maria e Tomás</h2>
-							<p><strong>Maria: +351 919 638 879</strong></p>
-							<p><strong>Tomás: +351 913 447 666</strong></p>
+							<p>Estamos ansiosos por festejar convosco! Confirmem a vossa presença, até dia 21 de abril.</p>
+							<p>Maria: +351 919 638 879 | Tomás: +351 913 447 666</p>
 						</div>
 						<!--<div class="col-md-6 col-md-offset-3 text-center">
 							<p class="fh5co-social-icons">
