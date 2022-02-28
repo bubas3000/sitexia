@@ -196,7 +196,7 @@
 									  <!--<label for="psw"><b>Password</b></label>-->
 									  <input type="text" placeholder="Valor do Presente" name="presente" required>
 								  
-									  <button type="button" class="btn">Enviar</button>
+									  <button type="button" class="btn cancel">Enviar</button>
 									  <button type="button" class="btn cancel" onclick="closeForm()">Cancelar</button>
 									</form>
 								</div>
