@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -128,7 +129,11 @@
 							<div class="desc">
 								<h3>Igreja</h3>
 								<p><strong>Igreja de Nossa Senhora dos Prazeres</strong></p>
+								
 								<p><strong> <i class="icon-map"></i> Largo Divino Espírito Santo, 2580-081 Aldeia Galega da Merceana</strong></p>
+								<form action="https://www.google.com/maps/place/Igreja+Nossa+Senhora+dos+Prazeres/@39.0811843,-9.1145978,17z/data=!3m1!4b1!4m5!3m4!1s0xd18d3ce263fe6d1:0x5909304d29fdf14d!8m2!3d39.0811802!4d-9.1124091?" method="get" target="_blank">
+									<button type="submit" class="btn btn-primary btn-block">Mapa</button>
+								</form>
 								<!--<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>-->
 							</div>
 						</div>
@@ -139,7 +144,10 @@
 							<div class="desc">
 								<h3>Festa</h3>
 								<p><strong>Quinta de D. Carlos</strong></p>
-								<p><strong><i class="icon-map"></i> N9, 3 Carvoeira, corrigir isto para ficar do mesmo tamanho</strong></p>
+								<p><strong><i class="icon-map"></i> N9, 3 Carvoeira</strong></p>
+								<form action="https://www.google.com/maps/place/Quinta+de+D.+Carlos/@39.074197,-9.0419307,15z/data=!4m5!3m4!1s0x0:0x6dadf69178a8de16!8m2!3d39.074197!4d-9.0419307" method="get" target="_blank">
+									<button type="submit" class="btn btn-primary btn-block">Mapa</button>
+								</form>
 								<!--<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>-->
 							</div>
 						</div>
@@ -197,7 +205,7 @@
 									  <input type="text" placeholder="Valor do Presente" name="presente" required>
 								  
 									  <button type="button" class="btn cancel">Enviar</button>
-									  <button type="button" class="btn cancel" onclick="closeForm()">Cancelar</button>
+									  <button type="button" class="btn cancel" onclick="closeForm()">Voltar</button>
 									</form>
 								</div>
 							</div>
@@ -205,9 +213,29 @@
 								<div class="wedding-events">
 									<div class="ceremony-bg" style="background-image: url(images/safari.jpg);"></div>
 									<div class="desc">
-										<button class="btn btn-primary btn-block" onclick="openForm()">Lua de Mel</button>
+										<button class="btn btn-primary btn-block" onclick="openForm1()">Lua de Mel</button>
 										<!--<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>-->
 									</div>
+								</div>
+								<div class="form-popup" id="myForm1">
+									<form action="/action_page.php" class="form-container">
+									  <h3>Para que possamos agradecer</h3>
+								  
+									  <!--<label for="email"><b>Email</b></label>-->
+									  <input type="text" placeholder="Nome" name="nome" required>
+								  
+									  <!--<label for="psw"><b>Password</b></label>-->
+									  <input type="text" placeholder="Telemóvel" name="tlm" required>
+		
+									  <!--<label for="psw"><b>Password</b></label>-->
+									  <input type="text" placeholder="Email" name="email" required>
+		
+									  <!--<label for="psw"><b>Password</b></label>-->
+									  <input type="text" placeholder="Valor do Presente" name="presente" required>
+								  
+									  <button type="button" class="btn cancel">Enviar</button>
+									  <button type="button" class="btn cancel" onclick="closeForm1()">Voltar</button>
+									</form>
 								</div>
 							</div>
 						</div>
@@ -293,6 +321,13 @@
 				
 				function closeForm() {
 				  document.getElementById("myForm").style.display = "none";
+				}
+				function openForm1() {
+				  document.getElementById("myForm1").style.display = "block";
+				}
+				
+				function closeForm1() {
+				  document.getElementById("myForm1").style.display = "none";
 				}
 				</script>
 				
