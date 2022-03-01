@@ -65,34 +65,7 @@
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
-	<!--
-	<header id="fh5co-header-section" class="sticky-banner">
-		<div class="container">
-			<div class="nav-header">
-				<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle dark"><i></i></a>
-				<h1 id="fh5co-logo"><a href="index.html">Maria e Tomás</a></h1>-->
-				<!-- START #fh5co-menu-wrap -->
-				<!--<nav id="fh5co-menu-wrap" role="navigation">
-					<ul class="sf-menu" id="fh5co-primary-menu">-->
-						<!--<li><a href="index.html" >Home</a></li>-->
-						<!--<li>
-							<a href="groom-bride.html" class="fh5co-sub-ddown">Groom &amp; Bride</a>
-							<ul class="fh5co-sub-menu">
-								<li><a href="#">Dropdown Menu 1</a></li>
-								<li><a href="#">Dropdown Menu 2</a></li>
-								<li><a href="#">Dropdown Menu 3</a></li>
-								<li><a href="#">Dropdown Menu 4</a></li>
-							</ul>
-						</li>-->
-						<!--<li class="active"><a href="when-where.html">O Dia</a></li>
-						<li><a href="guest.html">Onde Ficar</a></li>
-						<li><a href="gallery.html">Gallery</a></li>
-						<li><a href="blog.html">Blog</a></li>
-					</ul>
-				</nav>
-			</div>
-		</div>
-	</header>-->
+	
 	</head>
 	<body>
 		<div id="fh5co-wrapper">
@@ -153,6 +126,86 @@
 							</div>
 						</div>
 					</div>
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2 text-center heading-section animate-box">
+							<h2><br></h2>
+							<p><strong>Depois de tanto tempo sem festas, vamos aproveitar como nunca, até de manhã!</strong> 
+								<p><strong>Esperamos que nos acompanhem e que se divirtam sem preocupações.</strong>
+								<p><strong>Se quiserem transporte de volta a casa, podem contactar: </strong></p>
+								<p><strong>Vasco Evangelho: 965 062 987</strong></p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2 text-center heading-section animate-box">
+							<h2>Presentes de Casamento</h2>
+							<p><strong>A melhor parte vai ser estarem connosco neste dia, tão felizes como nós.</strong> 
+								<p><strong>Estamos a montar a nossa casa, onde vamos começar a nossa família e onde vos queremos receber sempre.</strong>
+								<p><strong>Agradecemos toda a ajuda para que fique uma casa querida, pronta para as vossas visitas e onde vamos poder contar-vos tudo sobre a nossa viagem.</strong></p>
+								<p><strong>IBAN: PT50 0269 0113 00200560232 37</strong></p>
+								<p><strong>MBWAY: 919 638 879</strong></p>
+								<!--<p><strong>Nome: Maria Sofia Vaz Ramires G da Costa</strong></p>-->
+						</div>
+					</div>
+					<div class="row row-bottom-padded-md">
+						<div class="col-md-6 text-center animate-box">
+							<div class="wedding-events">
+								<div class="ceremony-bg" style="background-image: url(images/casa1.jpg);"></div>
+								<div class="desc">
+									<button class="btn btn-primary btn-block" onclick="openForm()">Casa</button>
+									<!--<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>-->
+								</div>
+							</div>
+							<div class="form-popup" id="myForm">
+								<form action="/action_page.php" class="form-container">
+								  <h3>Para que possamos agradecer</h3>
+							  
+								  <!--<label for="email"><b>Email</b></label>-->
+								  <input type="text" placeholder="Nome" name="nome" required>
+							  
+								  <!--<label for="psw"><b>Password</b></label>-->
+								  <input type="text" placeholder="Telemóvel" name="tlm" required>
+	
+								  <!--<label for="psw"><b>Password</b></label>-->
+								  <input type="text" placeholder="Email" name="email" required>
+	
+								  <!--<label for="psw"><b>Password</b></label>-->
+								  <input type="text" placeholder="Valor do Presente" name="presente" required>
+							  
+								  <button type="button" class="btn cancel">Enviar</button>
+								  <button type="button" class="btn cancel" onclick="closeForm()">Voltar</button>
+								</form>
+							</div>
+						</div>
+						<div class="col-md-6 text-center animate-box">
+							<div class="wedding-events">
+								<div class="ceremony-bg" style="background-image: url(images/safari.jpg);"></div>
+								<div class="desc">
+									<button class="btn btn-primary btn-block" onclick="openForm1()">Lua de Mel</button>
+									<!--<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>-->
+								</div>
+							</div>
+							<div class="form-popup" id="myForm1">
+								<form action="/action_page.php" class="form-container">
+								  <h3>Para que possamos agradecer</h3>
+							  
+								  <!--<label for="email"><b>Email</b></label>-->
+								  <input type="text" placeholder="Nome" name="nome" required>
+							  
+								  <!--<label for="psw"><b>Password</b></label>-->
+								  <input type="text" placeholder="Telemóvel" name="tlm" required>
+	
+								  <!--<label for="psw"><b>Password</b></label>-->
+								  <input type="text" placeholder="Email" name="email" required>
+	
+								  <!--<label for="psw"><b>Password</b></label>-->
+								  <input type="text" placeholder="Valor do Presente" name="presente" required>
+							  
+								  <button type="button" class="btn cancel">Enviar</button>
+								  <button type="button" class="btn cancel" onclick="closeForm1()">Voltar</button>
+								</form>
+							</div>
+						</div>
+					</div>
 				</div>
 				<!--
 				<div class="row">
@@ -170,7 +223,7 @@
 					</div>
 				</div>
 				-->
-				<div id="fh5co-when-where" class="fh5co-section-gray">
+				<!--<div id="fh5co-when-where" class="fh5co-section-gray">
 					<div class="container">
 						<div class="row">
 							<div class="col-md-8 col-md-offset-2 text-center heading-section animate-box">
@@ -178,6 +231,7 @@
 								<p><strong>A melhor parte vai ser estarem connosco neste dia, tão felizes como nós.</strong> 
 									<p><strong>Estamos a montar a nossa casa, onde vamos começar a nossa família e onde vos queremos receber sempre.</strong>
 									<p><strong>Agradecemos toda a ajuda para que fique uma casa querida, pronta para as vossas visitas e onde vamos poder contar-vos tudo sobre a nossa viagem.</strong></p>
+									<p><strong>IBAN: PT50 0269 0113 00200560232 37</strong></p>
 							</div>
 						</div>
 						<div class="row row-bottom-padded-md">
@@ -186,23 +240,17 @@
 									<div class="ceremony-bg" style="background-image: url(images/casa1.jpg);"></div>
 									<div class="desc">
 										<button class="btn btn-primary btn-block" onclick="openForm()">Casa</button>
-										<!--<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>-->
+										
 									</div>
 								</div>
 								<div class="form-popup" id="myForm">
 									<form action="/action_page.php" class="form-container">
 									  <h3>Para que possamos agradecer</h3>
-								  
-									  <!--<label for="email"><b>Email</b></label>-->
 									  <input type="text" placeholder="Nome" name="nome" required>
-								  
-									  <!--<label for="psw"><b>Password</b></label>-->
 									  <input type="text" placeholder="Telemóvel" name="tlm" required>
-		
-									  <!--<label for="psw"><b>Password</b></label>-->
 									  <input type="text" placeholder="Email" name="email" required>
 		
-									  <!--<label for="psw"><b>Password</b></label>-->
+
 									  <input type="text" placeholder="Valor do Presente" name="presente" required>
 								  
 									  <button type="button" class="btn cancel">Enviar</button>
@@ -215,23 +263,16 @@
 									<div class="ceremony-bg" style="background-image: url(images/safari.jpg);"></div>
 									<div class="desc">
 										<button class="btn btn-primary btn-block" onclick="openForm1()">Lua de Mel</button>
-										<!--<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>-->
 									</div>
 								</div>
 								<div class="form-popup" id="myForm1">
 									<form action="/action_page.php" class="form-container">
 									  <h3>Para que possamos agradecer</h3>
-								  
-									  <!--<label for="email"><b>Email</b></label>-->
 									  <input type="text" placeholder="Nome" name="nome" required>
-								  
-									  <!--<label for="psw"><b>Password</b></label>-->
 									  <input type="text" placeholder="Telemóvel" name="tlm" required>
-		
-									  <!--<label for="psw"><b>Password</b></label>-->
 									  <input type="text" placeholder="Email" name="email" required>
 		
-									  <!--<label for="psw"><b>Password</b></label>-->
+
 									  <input type="text" placeholder="Valor do Presente" name="presente" required>
 								  
 									  <button type="button" class="btn cancel">Enviar</button>
@@ -241,7 +282,7 @@
 							</div>
 						</div>
 					</div>
-				</div>
+				</div>-->
 		
 			</div>
 			<style>
@@ -340,7 +381,8 @@
 
 
 
-			<div id="fh5co-started" style="background-image:url(images/Xia5lado.jpeg);">
+			<!--<div id="fh5co-started" style="background-image:url(images/Xia5lado.jpeg);">-->
+				<div id="fh5co-started">
 					<div class="container">
 						<div class="row animate-box">
 							<div class="col-md-8 col-md-offset-2 text-center heading-section">
