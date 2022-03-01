@@ -206,6 +206,7 @@ figure {
 .fh5co-cover .display-tc {
   display: table-cell;
   vertical-align: middle;
+  transform: translateY(-25%);
 }
 
 .fh5co-cover .display-tc h1 {
