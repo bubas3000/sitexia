@@ -559,8 +559,15 @@ figure {
   .fh5co-content-section {
     padding: 4em 0;
   }
+  #fh5co-started{
+    background-image: url(../images/xia1alto.jpeg);
+  }
 }
 
+#fh5co-started{
+background-image: url(../images/Xia5lado.jpeg);
+
+}
 .fh5co-section-gray {
   background: #F6FAF7;
 }
