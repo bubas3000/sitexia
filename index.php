@@ -384,13 +384,11 @@
 								<div id="fh5co-when-where" class="fh5co-section-gray">
 									<div class="container">
 								
-								<h2 class="w3-center">Manual Slideshow</h2>
-								
 								<div class="w3-content w3-display-container">
 									<img class="mySlides" src="images/xia4 (Custom).jfif" style="width:100%">
 									<img class="mySlides" src="images/Xia (Custom).png" style="width:100%">
 									<img class="mySlides" src="images/xia6 (Custom).jpg" style="width:100%">
-									<img class="mySlides" src="images/Xia1lado (Custom).jpeg" style="width:100%">
+									<img class="mySlides" src="images/xia9 (Custom).jfif" style="width:100%">
 								
 								  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
 								  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
