@@ -146,26 +146,6 @@
 									<!--<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>-->
 								</div>
 							</div>
-							<div class="form-popup" id="myForm">
-								<form action="/action_page.php" class="form-container">
-								  <h3>Para que possamos agradecer</h3>
-							  
-								  <!--<label for="email"><b>Email</b></label>-->
-								  <input type="text" placeholder="Nome" name="nome" required>
-							  
-								  <!--<label for="psw"><b>Password</b></label>-->
-								  <input type="text" placeholder="Telemóvel" name="tlm" required>
-	
-								  <!--<label for="psw"><b>Password</b></label>-->
-								  <input type="text" placeholder="Email" name="email" required>
-	
-								  <!--<label for="psw"><b>Password</b></label>-->
-								  <input type="text" placeholder="Valor do Presente" name="presente" required>
-							  
-								  <button type="button" class="btn cancel">Enviar</button>
-								  <button type="button" class="btn cancel" onclick="closeForm()">Voltar</button>
-								</form>
-							</div>
 						</div>
 						<div class="col-md-6 text-center animate-box">
 							<div class="wedding-events">
@@ -175,107 +155,33 @@
 									<!--<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>-->
 								</div>
 							</div>
-							<div class="form-popup" id="myForm1">
-								<form action="/action_page.php" class="form-container">
-								  <h3>Para que possamos agradecer</h3>
-							  
-								  <!--<label for="email"><b>Email</b></label>-->
-								  <input type="text" placeholder="Nome" name="nome" required>
-							  
-								  <!--<label for="psw"><b>Password</b></label>-->
-								  <input type="text" placeholder="Telemóvel" name="tlm" required>
+						</div>
+					</div>
+					<div class="form-popup" id="myForm">
+						<form action="https://sheetdb.io/api/v1/xmo6nd6dgp8wt" method="POST" id="sheetdb-form" class="form-container">
+						  <h3>Para que possamos agradecer</h3>
+					  
+						  <!--<label for="email"><b>Email</b></label>-->
+						  <input type="text" placeholder="Nome" name="data[Nome]" required>
+					  
+						  <!--<label for="psw"><b>Password</b></label>-->
+						  <input type="text" placeholder="Telemóvel" name="data[Telemovel]" required>
 	
-								  <!--<label for="psw"><b>Password</b></label>-->
-								  <input type="text" placeholder="Email" name="email" required>
+						  <!--<label for="psw"><b>Password</b></label>-->
+						  <input type="email" placeholder="Email" id = "mail" name="data[Email]" required>
 	
-								  <!--<label for="psw"><b>Password</b></label>-->
-								  <input type="text" placeholder="Valor do Presente" name="presente" required>
-							  
-								  <button type="button" class="btn cancel">Enviar</button>
-								  <button type="button" class="btn cancel" onclick="closeForm1()">Voltar</button>
-								</form>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!--
-				<div class="row">
-					<div class="col-md-12 text-center">
-						<div class="mapouter"><div class="gmap_canvas"><iframe width="764" height="350" id="gmap_canvas" src="https://www.google.com/maps/d/u/0/embed?mid=1CF5b_Urwcbwf3eirijxJob_egtN2VT7m&ehbc=2E312F" frameborder="0" scrolling="no" marginheight="0" marginwidth="20"></iframe></div></div>
-					</div>
-				</div>
-				-->
-				<!--
-				<div class="row">
-					<div class="col-md-12">
-						<div id="map" class="fh5co-map">
-							
-						</div>
-					</div>
-				</div>
-				-->
-				<!--<div id="fh5co-when-where" class="fh5co-section-gray">
-					<div class="container">
-						<div class="row">
-							<div class="col-md-8 col-md-offset-2 text-center heading-section animate-box">
-								<h2>Presentes de Casamento</h2>
-								<p><strong>A melhor parte vai ser estarem connosco neste dia, tão felizes como nós.</strong> 
-									<p><strong>Estamos a montar a nossa casa, onde vamos começar a nossa família e onde vos queremos receber sempre.</strong>
-									<p><strong>Agradecemos toda a ajuda para que fique uma casa querida, pronta para as vossas visitas e onde vamos poder contar-vos tudo sobre a nossa viagem.</strong></p>
-									<p><strong>IBAN: PT50 0269 0113 00200560232 37</strong></p>
-							</div>
-						</div>
-						<div class="row row-bottom-padded-md">
-							<div class="col-md-6 text-center animate-box">
-								<div class="wedding-events">
-									<div class="ceremony-bg" style="background-image: url(images/casa1.jpg);"></div>
-									<div class="desc">
-										<button class="btn btn-primary btn-block" onclick="openForm()">Casa</button>
-										
-									</div>
-								</div>
-								<div class="form-popup" id="myForm">
-									<form action="/action_page.php" class="form-container">
-									  <h3>Para que possamos agradecer</h3>
-									  <input type="text" placeholder="Nome" name="nome" required>
-									  <input type="text" placeholder="Telemóvel" name="tlm" required>
-									  <input type="text" placeholder="Email" name="email" required>
-		
+						  <!--<label for="psw"><b>Password</b></label>-->
+						  <input type="text" placeholder="Valor do Presente" name="data[Valor]" required>
 
-									  <input type="text" placeholder="Valor do Presente" name="presente" required>
-								  
-									  <button type="button" class="btn cancel">Enviar</button>
-									  <button type="button" class="btn cancel" onclick="closeForm()">Voltar</button>
-									</form>
-								</div>
-							</div>
-							<div class="col-md-6 text-center animate-box">
-								<div class="wedding-events">
-									<div class="ceremony-bg" style="background-image: url(images/safari.jpg);"></div>
-									<div class="desc">
-										<button class="btn btn-primary btn-block" onclick="openForm1()">Lua de Mel</button>
-									</div>
-								</div>
-								<div class="form-popup" id="myForm1">
-									<form action="/action_page.php" class="form-container">
-									  <h3>Para que possamos agradecer</h3>
-									  <input type="text" placeholder="Nome" name="nome" required>
-									  <input type="text" placeholder="Telemóvel" name="tlm" required>
-									  <input type="text" placeholder="Email" name="email" required>
-		
-
-									  <input type="text" placeholder="Valor do Presente" name="presente" required>
-								  
-									  <button type="button" class="btn cancel">Enviar</button>
-									  <button type="button" class="btn cancel" onclick="closeForm1()">Voltar</button>
-									</form>
-								</div>
-							</div>
-						</div>
+						  <!--<label for="psw"><b>Password</b></label>-->
+						  <textarea name="data[Mensagem]" cols="40" rows="5" placeholder="Mensagem"></textarea>
+						  <button type="submit" class="btn cancel">Enviar</button>
+						  <button type="button" class="btn cancel" onclick="closeForm()">Voltar</button>
+						</form>
 					</div>
-				</div>-->
-		
+				</div>	
 			</div>
+			
 			<style>
 				body {font-family: Cinzel;}
 				* {box-sizing: border-box;}
@@ -284,9 +190,9 @@
 				.form-popup {
 				  display: none;
 				  position: fixed;
+				  margin-right: auto;
+				  margin-left: auto;
 				  bottom: 0;
-				  right: 15px;
-				  border: 3px solid #f1f1f1;
 				  z-index: 9;
 				}
 				
@@ -299,9 +205,12 @@
 				  padding: 10px;
 				  background-color: white;
 				}
-				
+				.form-container h3{
+				  margin-right: auto;
+				  margin-left: auto;
+				}
 				/* Full-width input fields */
-				.form-container input[type=text], .form-container input[type=password] {
+				.form-container input[type=text], .form-container input[type=password], .form-container input[type=email] {
 				  width: 100%;
 				  padding: 15px;
 				  margin: 5px 0 22px 0;
@@ -311,13 +220,30 @@
 				}
 				
 				/* When the inputs get focus, do something */
-				.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+				.form-container input[type=text]:focus, .form-container input[type=password]:focus, .form-container input[type=email]:focus {
 				  background-color:#4a6870b4;
 				  outline: none;
 				}
 
+				.form-container textarea {
+				  width: 100%;
+				  padding: 15px;
+				  margin: 5px 0 22px 0;
+				  border: none;
+				  color: white;
+				  background: #4a687069;
+				}
+				
+				/* When the inputs get focus, do something */
+				.form-container textarea:focus {
+				  background-color:#4a6870b4;
+				  outline: none;
+				}
+
+
+
 				.form-container ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-  					color: rgba(255, 255, 255, 0.63);
+  					color: rgb(255, 255, 255);
   					opacity: 1; /* Firefox */
 				}
 				
@@ -328,7 +254,7 @@
 				  padding: 16px 20px;
 				  border: none;
 				  cursor: pointer;
-				  width: 50%;
+				  width: 100%;
 				  margin-bottom:10px;
 				  opacity: 0.8;
 				}
@@ -342,10 +268,9 @@
 				.form-container .btn:hover, .open-button:hover {
 				  opacity: 1;
 				}
+
 				</style>
 				</head>
-				
-
 				
 				<script>
 				function openForm() {
@@ -451,17 +376,17 @@
 						</div>
 						<div class="row animate-box">
 							<div class="col-md-10 col-md-offset-1">
-								<form class="form-inline">
+								<form action="https://sheetdb.io/api/v1/3afbu8ftckupf" method="POST" id="sheetdb-form" class="form-inline">
 									<div class="col-md-4 col-sm-4">
 										<div class="form-group">
 											<label for="name" class="sr-only">Música</label>
-											<input type="name" class="form-control" id="name" placeholder="Música">
+											<input type="text" class="form-control" id="musica" name="data[Musica]" placeholder="Música" required>
 										</div>
 									</div>
 									<div class="col-md-4 col-sm-4">
 										<div class="form-group">
 											<label for="email" class="sr-only">Banda/Artista</label>
-											<input type="email" class="form-control" id="email" placeholder="Banda/Artista">
+											<input type="text" class="form-control" id="email" name="data[Banda]" placeholder="Banda/Artista">
 										</div>
 									</div>
 									<div class="col-md-4 col-sm-4">
@@ -472,7 +397,25 @@
 						</div>
 					</div>
 		</div>
-
+		
+		<script>
+			var form = document.getElementById('sheetdb-form');
+			form.addEventListener("submit", e => {
+			  e.preventDefault();
+			  fetch(form.action, {
+				  method : "POST",
+				  body: new FormData(document.getElementById("sheetdb-form")),
+			  }).then(
+				  response => response.json()
+			  ).then((html) => {
+				// you can put any JS code here
+			   alert('Obrigado pelo seu contacto!');
+			   closeForm();
+			   //window.location = '/index.html';
+			  });
+			});
+		  
+		</script>
 		<!-- end:header-top -->
 		
 		
