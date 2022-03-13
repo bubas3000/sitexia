@@ -79,7 +79,7 @@
 								<div class="animate-box">
 								<!--<h1>The Wedding</h1>-->
 									<h2>Maria <small style="color: white;">e</small> Tomás</h2>
-									<p><span>21.05.2022</span></p>
+									<p><span>21.05.2022</span></p> 
 								</div>
 							</div>
 						</div>
@@ -101,7 +101,7 @@
 							<div class="ceremony-bg" style="background-image: url(images/igreja.jpg);"></div>
 							<div class="desc">
 								<h3>Igreja</h3>
-								<p><strong>Igreja de Nossa Senhora dos Prazeres</strong></p>
+								<p><strong>Igreja Nossa Senhora dos Prazeres</strong></p>
 								
 								<p><strong> <i class="icon-map"></i> Largo Divino Espírito Santo, 2580-081 Aldeia Galega da Merceana</strong></p>
 								<form action="https://www.google.com/maps/place/Igreja+Nossa+Senhora+dos+Prazeres/@39.0811843,-9.1145978,17z/data=!3m1!4b1!4m5!3m4!1s0xd18d3ce263fe6d1:0x5909304d29fdf14d!8m2!3d39.0811802!4d-9.1124091?" method="get" target="_blank">
@@ -127,13 +127,22 @@
 					</div>
 					<div class="row">
 						<div class="col-md-8 col-md-offset-2 text-center heading-section animate-box">
+							<h2><br>Regresso a Casa</h2>
+							<div class="wedding-events">
+								<div class="ceremony-bg" style="background-image: url(images/regressoacasa.jpg);"></div>
+								<p><br>Queremos que a festa seja memorável e sem preocupações.</br>
+								Para quem precisar de transporte para regressar a casa, pode contactar:</p>
+								<p><strong>Vasco Evangelho: 965 062 987</strong></p>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2 text-center heading-section animate-box">
 							<h2><br>Presentes de Casamento</h2>
 							<div class="wedding-events">
-							<p><strong>A melhor parte vai ser estarem connosco neste dia, tão felizes como nós.</strong> 
-								<p><strong>Estamos a montar a nossa casa, onde vamos começar a nossa família e onde vos queremos receber sempre.</strong>
-								<p><strong>Agradecemos toda a ajuda para que fique uma casa querida, pronta para as vossas visitas e onde vamos poder contar-vos tudo sobre a nossa viagem.</strong></p>
-								<p><strong>IBAN: PT50 0269 0113 00200560232 37</strong></p>
-								<p><strong>MBWAY: 919 638 879</strong></p></div>
+							<p>A todos os que quiserem ajudar-nos neste novo início, ficamos muito agradecidos. Da viagem à nossa casa, onde iremos querer receber-vos num futuro muito próximo.</p>
+								<p><strong>IBAN: PT50 0269 0113 00200560232 37</strong>
+								<br><strong><strong>MBWAY: 919 638 879</strong></strong></p></div>
 								<!--<p><strong>Nome: Maria Sofia Vaz Ramires G da Costa</strong></p>-->
 						</div>
 					</div>
@@ -151,7 +160,7 @@
 							<div class="wedding-events">
 								<div class="ceremony-bg" style="background-image: url(images/safari.jpg);"></div>
 								<div class="desc">
-									<button class="btn btn-primary btn-block" onclick="openForm1()">Lua de Mel</button>
+									<button class="btn btn-primary btn-block" onclick="openForm()">Lua de Mel</button>
 									<!--<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>-->
 								</div>
 							</div>
@@ -159,7 +168,7 @@
 					</div>
 					<div class="form-popup" id="myForm">
 						<form action="https://sheetdb.io/api/v1/xmo6nd6dgp8wt" method="POST" id="sheetdb-form" class="form-container">
-						  <h3>Para que possamos agradecer</h3>
+						  <h1><strong>Para que possamos agradecer</strong></h1>
 					  
 						  <!--<label for="email"><b>Email</b></label>-->
 						  <input type="text" placeholder="Nome" name="data[Nome]" required>
@@ -171,7 +180,7 @@
 						  <input type="email" placeholder="Email" id = "mail" name="data[Email]" required>
 	
 						  <!--<label for="psw"><b>Password</b></label>-->
-						  <input type="text" placeholder="Valor do Presente" name="data[Valor]" required>
+						  <!--<input type="text" placeholder="Valor do Presente" name="data[Valor]" required>-->
 
 						  <!--<label for="psw"><b>Password</b></label>-->
 						  <textarea name="data[Mensagem]" cols="40" rows="5" placeholder="Mensagem"></textarea>
@@ -188,26 +197,40 @@
 				
 				/* The popup form - hidden by default */
 				.form-popup {
+				  height: 100%;
+  				  width: 100%;
 				  display: none;
 				  position: fixed;
 				  margin-right: auto;
 				  margin-left: auto;
 				  bottom: 0;
 				  z-index: 9;
+				  top: 0;
+  				  left: 0;
+				  background-image: url(images/STDlado.jpg);
+				  background-position: center;
+				  background-repeat: no-repeat;
+			      background-size: cover;
+				}
+
+				.form-container-full{
+					height: 100%;
+ 					width: 100%;
 				}
 				
 				/* Add styles to the form container */
 				.form-container {
 				  width: 80%;
 				  height: 50%;
+				  margin-top: 2%;
 				  margin-right: auto;
 				  margin-left: auto;
 				  padding: 10px;
-				  background-color: white;
+				  background-color: transparent;
 				}
-				.form-container h3{
-				  margin-right: auto;
-				  margin-left: auto;
+				.form-container h1{
+				  text-align: center;
+				  color: #4a6870;
 				}
 				/* Full-width input fields */
 				.form-container input[type=text], .form-container input[type=password], .form-container input[type=email] {
@@ -293,7 +316,7 @@
 
 
 
-				
+				<!--
 								<style>
 								.mySlides {display:none;}
 								.w3-button{border:none;display:inline-block;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap}
@@ -345,22 +368,11 @@
 								  }
 								  x[slideIndex-1].style.display = "block";  
 								}
-								</script>
-									<div class="row">
-										<div class="col-md-8 col-md-offset-2 text-center heading-section animate-box">
-											<h2><br>Regresso a Casa</h2>
-											<div class="wedding-events">
-											<div class="ceremony-bg" style="background-image: url(images/carro.jpg);"></div>
-											<p><strong>Depois de tanto tempo sem festas, vamos aproveitar como nunca, até de manhã!</strong> 
-												<p><strong>Esperamos que nos acompanhem e que se divirtam sem preocupações.</strong>
-												<p><strong>Se quiserem transporte de volta a casa, podem contactar: </strong></p>
-												<p><strong>Vasco Evangelho: 965 062 987</strong></p>
-											</div>
-										</div>
-										</div>
+								</script>-->
 									</div>
 									</div>
 								</div>
+			
 
 								
 
@@ -427,6 +439,7 @@
 							<h2>Maria e Tomás</h2>
 							<p>Estamos ansiosos por festejar convosco! Confirmem a vossa presença, até dia 21 de abril.</p>
 							<p>Maria: +351 919 638 879 | Tomás: +351 913 447 666</p>
+							<button type="submit" class="btn"><strong>RSVP</strong></button>
 						</div>
 						<!--<div class="col-md-6 col-md-offset-3 text-center">
 							<p class="fh5co-social-icons">
@@ -441,6 +454,29 @@
 					</div>
 				</div>
 			</div>
+
+			<style>
+				#footer .btn {
+				  background-color: white;
+				  color: #4a6870;
+				  padding: 16px 20px;
+				  border: none;	
+				  cursor: pointer;
+				  width: 30%;
+				  margin-bottom:10px;
+				  opacity: 0.8;
+				}
+				
+				/* Add a red background color to the cancel button */
+				#footer .cancel {
+				  background-color: #4a6870;
+				}
+				
+				/* Add some hover effects to buttons */
+				#footer .btn:hover, .open-button:hover {
+				  opacity: 1;
+				}
+			</style>
 		</footer>
 	
 
