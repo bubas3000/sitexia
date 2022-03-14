@@ -174,7 +174,7 @@ figure {
 
 .fh5co-cover {
   background-size: cover;
-  background-image: url(../images/XIA3.jpeg);
+  background-image: url(../images/xiafundo.jpg);
   position: relative;
 }
 
@@ -183,7 +183,7 @@ figure {
     height: inherit;
     padding: 3em 0;
     background-size: cover;
-    background-image: url(../images/XIA3alto.jpeg);
+    background-image: url(../images/xiafundoalto1.jpg);
     position: relative;
   }
 }
@@ -560,12 +560,12 @@ figure {
     padding: 4em 0;
   }
   #fh5co-started{
-    background-image: url(../images/xia1alto.jpeg);
+    background-image: url(../images/xia11alto.jpg);
   }
 }
 
 #fh5co-started{
-background-image: url(../images/Xia5lado.jpeg);
+background-image: url(../images/xia10ladojpg.jpg);
 
 }
 .fh5co-section-gray {
@@ -671,7 +671,7 @@ background-image: url(../images/Xia5lado.jpeg);
 }
 
 .wedding-events {
-  background: #fff;
+  background: rgb(255, 255, 255);
 }
 
 .wedding-events .ceremony-bg {
