@@ -127,7 +127,19 @@
 					</div>
 					<div class="row">
 						<div class="col-md-8 col-md-offset-2 text-center heading-section animate-box">
-							<h2><br>Regresso a Casa</h2>
+							<h2><br></h2>
+							<div class="wedding-events">
+								<p>Queremos que este dia seja passado com as pessoas de quem mais gostamos, de forma segura e confortável para todos.</p>
+								<p>Pedimos, por favor, que façam um dos seguintes testes e que enviem para o mail <strong>mariaetomas.casamento@gmail.com</strong></p>
+								<p><strong>Antigénio até 24h antes<br>
+									Autoteste no dia</strong></p>
+							</div>
+								<!--<p><strong>Nome: Maria Sofia Vaz Ramires G da Costa</strong></p>-->
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2 text-center heading-section animate-box">
+							<h2>Regresso a Casa</h2>
 							<div class="wedding-events">
 								<div class="ceremony-bg" style="background-image: url(images/regressoacasa.jpg);"></div>
 								<p><br>Queremos que a festa seja memorável e sem preocupações.</br>
@@ -136,6 +148,7 @@
 							</div>
 						</div>
 					</div>
+
 					<div class="row">
 						<div class="col-md-8 col-md-offset-2 text-center heading-section animate-box">
 							<h2><br>Presentes de Casamento</h2>
@@ -421,7 +434,7 @@
 				  response => response.json()
 			  ).then((html) => {
 				// you can put any JS code here
-			   alert('Obrigado pelo seu contacto!');
+			   alert('Obrigado!');
 			   closeForm();
 			   //window.location = '/index.html';
 			  });
@@ -439,7 +452,7 @@
 							<h2>Maria e Tomás</h2>
 							<p>Estamos ansiosos por festejar convosco! Confirmem a vossa presença, até dia 21 de abril.</p>
 							<p>Maria: +351 919 638 879 | Tomás: +351 913 447 666</p>
-							<button type="submit" class="btn"><strong>RSVP</strong></button>
+							<button type="submit" class="btn cancel"><strong>RSVP</strong></button>
 						</div>
 						<!--<div class="col-md-6 col-md-offset-3 text-center">
 							<p class="fh5co-social-icons">
@@ -457,8 +470,8 @@
 
 			<style>
 				#footer .btn {
-				  background-color: white;
-				  color: #4a6870;
+				  background-color: #4a68704d;
+				  color: white;
 				  padding: 16px 20px;
 				  border: none;	
 				  cursor: pointer;
@@ -469,12 +482,14 @@
 				
 				/* Add a red background color to the cancel button */
 				#footer .cancel {
-				  background-color: #4a6870;
+				  background-color: white;
+				  color: #4a6870;
 				}
 				
 				/* Add some hover effects to buttons */
 				#footer .btn:hover, .open-button:hover {
 				  opacity: 1;
+				  color: white;
 				}
 			</style>
 		</footer>
