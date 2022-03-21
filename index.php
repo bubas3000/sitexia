@@ -405,7 +405,7 @@
 					<div class="container">
 						<div class="row animate-box">
 							<div class="col-md-8 col-md-offset-2 text-center heading-section">
-								<h2>Música que não pode faltar?</h2>
+								<h2 style="color: #4a6870;">Música que não pode faltar?</h2>
 							</div>
 						</div>
 						<div class="row animate-box">
