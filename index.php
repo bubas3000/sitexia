@@ -461,7 +461,7 @@
 							<h2>Maria e Tomás</h2>
 							<p>Estamos ansiosos por festejar convosco! Confirmem a vossa presença, até dia 21 de abril.</p>
 							<p>Maria: +351 919 638 879 | Tomás: +351 913 447 666</p>
-							<button type="submit" class="btnf cancelf" onclick="openForm1()"><strong>RSVP</strong></button>
+							<button type="submit" class="btn ft" onclick="openForm1()">RSVP</button>
 						</div>
 						<div class="form-popup" id="myForm1">
 							<form action="https://sheetdb.io/api/v1/xmo6nd6dgp8wt" method="POST" id="sheetdb-form" class="form-container">
@@ -503,9 +503,9 @@
 			</div>
 
 			<style>
-				#footer .btnf {
-				  background-color: #4a68704d;
-				  color: white;
+				#footer .ft {
+				  background-color: white;
+				  color: #4a6870;
 				  padding: 16px 20px;
 				  border: none;	
 				  cursor: pointer;
@@ -515,15 +515,12 @@
 				}
 				
 				/* Add a red background color to the cancel button */
-				#footer .cancelf {
-				  background-color: white;
-				  color: #4a6870;
-				}
+				
 				
 				/* Add some hover effects to buttons */
-				#footer .btnf:hover, .open-button:hover {
-				  opacity: 1;
-				  color: white;
+				#footer .ft :hover, .open-button:hover {
+				  background-color: white;
+				  color: #4a6870;
 				}
 			</style>
 		</footer>
