@@ -234,7 +234,7 @@
 				/* Add styles to the form container */
 				.form-container {
 				  width: 80%;
-				  height: 50%;
+				  height: 100%;
 				  margin-top: 2%;
 				  margin-right: auto;
 				  margin-left: auto;
@@ -252,12 +252,12 @@
 				  margin: 5px 0 22px 0;
 				  border: none;
 				  color: white;
-				  background: #4a687069;
+				  background: #4a6870b4;
 				}
 				
 				/* When the inputs get focus, do something */
 				.form-container input[type=text]:focus, .form-container input[type=password]:focus, .form-container input[type=email]:focus {
-				  background-color:#4a6870b4;
+				  background-color:#4a6870d2;
 				  outline: none;
 				}
 
@@ -267,12 +267,12 @@
 				  margin: 5px 0 22px 0;
 				  border: none;
 				  color: white;
-				  background: #4a687069;
+				  background: #4a6870b4;
 				}
 				
 				/* When the inputs get focus, do something */
-				.form-container textarea:focus {
-				  background-color:#4a6870b4;
+				.form-container textarea:focus,  .form-container select:focus{
+				  background-color:#4a6870d2;
 				  outline: none;
 				}
 
@@ -303,6 +303,15 @@
 				/* Add some hover effects to buttons */
 				.form-container .btn:hover, .open-button:hover {
 				  opacity: 1;
+				}
+
+				.form-container select{
+				  width: 100%;
+				  padding: 15px;
+				  margin: 5px 0 22px 0;
+				  border: none;
+				  color: white;
+				  background: #4a6870b4;
 				}
 
 				</style>
@@ -452,8 +461,33 @@
 							<h2>Maria e Tomás</h2>
 							<p>Estamos ansiosos por festejar convosco! Confirmem a vossa presença, até dia 21 de abril.</p>
 							<p>Maria: +351 919 638 879 | Tomás: +351 913 447 666</p>
-							<button type="submit" class="btn cancel"><strong>RSVP</strong></button>
+							<button type="submit" class="btnf cancelf" onclick="openForm1()"><strong>RSVP</strong></button>
 						</div>
+						<div class="form-popup" id="myForm1">
+							<form action="https://sheetdb.io/api/v1/xmo6nd6dgp8wt" method="POST" id="sheetdb-form" class="form-container">
+							  <h1><strong>Confirme a sua presença</strong></h1>
+						  
+							  <!--<label for="email"><b>Email</b></label>-->
+							  <input type="text" placeholder="Nomes" name="data[Nome]" required>
+
+							  <select name="data[Presenca]">
+								<option value="" disabled selected>Contamos convosco dia 21 de Maio?</option>
+								<option value="">Sim!</option>
+								<option value="">Não</option>
+							  </select>
+							  <!--<label for="psw"><b>Password</b></label>
+							  <input type="text" placeholder="Telemóvel" name="data[Telemovel]" required>
+		
+							  <input type="email" placeholder="Email" id = "mail" name="data[Email]" required>-->
+		
+							  <!--<label for="psw"><b>Password</b></label>-->
+							  <!--<input type="text" placeholder="Valor do Presente" name="data[Valor]" required>-->
+	
+							  <!--<label for="psw"><b>Password</b></label>-->
+							  <textarea name="data[Alergias]" cols="40" rows="5" placeholder="Informações Adicionais (alergias, mobilidade reduzida, ...)"></textarea>
+							  <button type="submit" class="btn cancel">Enviar</button>
+							  <button type="button" class="btn cancel" onclick="closeForm1()">Voltar</button>
+							</form>
 						<!--<div class="col-md-6 col-md-offset-3 text-center">
 							<p class="fh5co-social-icons">
 								<a href="#"><i class="icon-twitter2"></i></a>
@@ -469,7 +503,7 @@
 			</div>
 
 			<style>
-				#footer .btn {
+				#footer .btnf {
 				  background-color: #4a68704d;
 				  color: white;
 				  padding: 16px 20px;
@@ -481,13 +515,13 @@
 				}
 				
 				/* Add a red background color to the cancel button */
-				#footer .cancel {
+				#footer .cancelf {
 				  background-color: white;
 				  color: #4a6870;
 				}
 				
 				/* Add some hover effects to buttons */
-				#footer .btn:hover, .open-button:hover {
+				#footer .btnf:hover, .open-button:hover {
 				  opacity: 1;
 				  color: white;
 				}
