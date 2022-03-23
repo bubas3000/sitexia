@@ -180,30 +180,45 @@
 						</div>
 					</div>
 					<div class="form-popup" id="myForm">
-						<form action="https://sheetdb.io/api/v1/xmo6nd6dgp8wt" method="POST" id="sheetdb-form" class="form-container">
+						<form action="https://script.google.com/macros/s/AKfycbyLrUPRE0N0hNhDcYCiSs4Dq2YHCKDtKSmD0a0lxdrDKQSloQiIMJMa0nwhwOAEOZ6v/exec" method="POST" id="Presentes" class="form-container">
 						  <h1><strong>Para que possamos agradecer</strong></h1>
 					  
 						  <!--<label for="email"><b>Email</b></label>-->
-						  <input type="text" placeholder="Nome" name="data[Nome]" required>
-					  
-						  <!--<label for="psw"><b>Password</b></label>-->
-						  <input type="text" placeholder="Telemóvel" name="data[Telemovel]" required>
-	
-						  <!--<label for="psw"><b>Password</b></label>-->
-						  <input type="email" placeholder="Email" id = "mail" name="data[Email]" required>
-	
-						  <!--<label for="psw"><b>Password</b></label>-->
-						  <!--<input type="text" placeholder="Valor do Presente" name="data[Valor]" required>-->
+						  <input type="text" placeholder="Nome" name="Nome" required>
 
-						  <!--<label for="psw"><b>Password</b></label>-->
-						  <textarea name="data[Mensagem]" cols="40" rows="5" placeholder="Mensagem"></textarea>
+						  <input type="text" placeholder="Telemóvel" name="Telemovel" required>
+	
+						  <input type="email" placeholder="Email" id = "mail" name="Email" required>
+
+						  <!--<input type="text" placeholder="Valor do Presente" name="data[Valor]" required>-->
+								
+						  <textarea name="Mensagem" cols="40" rows="5" placeholder="Mensagem"></textarea>
 						  <button type="submit" class="btn cancel">Enviar</button>
 						  <button type="button" class="btn cancel" onclick="closeForm()">Voltar</button>
 						</form>
 					</div>
 				</div>	
 			</div>
-			
+			<script>
+				window.addEventListener("load", function() {
+				const form = document.getElementById('Presentes');
+				form.addEventListener("submit", function(e) {
+					e.preventDefault();
+					const data = new FormData(form);
+					const action = e.target.action;
+					fetch(action, {
+					method: 'POST',
+					body: data,
+					})
+					.then(() => {
+					alert("Obrigado!");
+					form.reset();
+					closeForm();
+					})
+				});
+				});
+	
+			</script>
 			<style>
 				body {font-family: Cinzel;}
 				* {box-sizing: border-box;}
@@ -410,17 +425,17 @@
 						</div>
 						<div class="row animate-box">
 							<div class="col-md-10 col-md-offset-1">
-								<form action="https://sheetdb.io/api/v1/3afbu8ftckupf" method="POST" id="sheetdb-form" class="form-inline">
+								<form action="https://script.google.com/macros/s/AKfycbzThkQz1BP5kU97W4JRs45YpEBW3as3VFikqjQ8f8chNniIHq5yU8sA1ApMyqH-RSls/exec" method="POST" id="Musica" class="form-inline">
 									<div class="col-md-4 col-sm-4">
 										<div class="form-group">
 											<label for="name" class="sr-only">Música</label>
-											<input type="text" class="form-control" id="musica" name="data[Musica]" placeholder="Música" required>
+											<input type="text" class="form-control" id="musica" name="Musica" placeholder="Música" required>
 										</div>
 									</div>
 									<div class="col-md-4 col-sm-4">
 										<div class="form-group">
 											<label for="email" class="sr-only">Banda/Artista</label>
-											<input type="text" class="form-control" id="email" name="data[Banda]" placeholder="Banda/Artista">
+											<input type="text" class="form-control" id="email" name="Banda" placeholder="Banda/Artista">
 										</div>
 									</div>
 									<div class="col-md-4 col-sm-4">
@@ -433,23 +448,25 @@
 		</div>
 		
 		<script>
-			var form = document.getElementById('sheetdb-form');
-			form.addEventListener("submit", e => {
-			  e.preventDefault();
-			  fetch(form.action, {
-				  method : "POST",
-				  body: new FormData(document.getElementById("sheetdb-form")),
-			  }).then(
-				  response => response.json()
-			  ).then((html) => {
-				// you can put any JS code here
-			   alert('Obrigado!');
-			   closeForm();
-			   //window.location = '/index.html';
-			  });
+			window.addEventListener("load", function() {
+			const form = document.getElementById('Musica');
+			form.addEventListener("submit", function(e) {
+				e.preventDefault();
+				const data = new FormData(form);
+				const action = e.target.action;
+				fetch(action, {
+				method: 'POST',
+				body: data,
+				})
+				.then(() => {
+				alert("Obrigado!");
+				form.reset();
+				})
 			});
-		  
+			});
+
 		</script>
+		
 		<!-- end:header-top -->
 		
 		
@@ -464,16 +481,15 @@
 							<button type="submit" class="btn ft" onclick="openForm1()">RSVP</button>
 						</div>
 						<div class="form-popup" id="myForm1">
-							<form action="https://sheetdb.io/api/v1/xmo6nd6dgp8wt" method="POST" id="sheetdb-form" class="form-container">
+							<form method="POST" action="https://script.google.com/macros/s/AKfycbzl2mRGYdIT3LrkvMLd0dcEz2G1_A6OaCf4fTS4dA3tEstFKdmQVVsDjsz7aIGz5w_16Q/exec"  class="form-container" id = "rsvp">
 							  <h1><strong>Confirme a sua presença</strong></h1>
 						  
 							  <!--<label for="email"><b>Email</b></label>-->
-							  <input type="text" placeholder="Nomes" name="data[Nome]" required>
-
-							  <select name="data[Presenca]">
+							  <input type="text" placeholder="Nomes" name="Nomes" required>
+							  <select name="Presenca" required>
 								<option value="" disabled selected>Contamos convosco dia 21 de Maio?</option>
-								<option value="">Sim!</option>
-								<option value="">Não</option>
+								<option value="Sim">Sim!</option>
+								<option value="Não">Não</option>
 							  </select>
 							  <!--<label for="psw"><b>Password</b></label>
 							  <input type="text" placeholder="Telemóvel" name="data[Telemovel]" required>
@@ -484,7 +500,7 @@
 							  <!--<input type="text" placeholder="Valor do Presente" name="data[Valor]" required>-->
 	
 							  <!--<label for="psw"><b>Password</b></label>-->
-							  <textarea name="data[Alergias]" cols="40" rows="5" placeholder="Informações Adicionais (alergias, mobilidade reduzida, ...)"></textarea>
+							  <textarea name="Informacoes" cols="40" rows="5" placeholder="Informações Adicionais (alergias, mobilidade reduzida, ...)"></textarea>
 							  <button type="submit" class="btn cancel">Enviar</button>
 							  <button type="button" class="btn cancel" onclick="closeForm1()">Voltar</button>
 							</form>
@@ -497,10 +513,31 @@
 								<a href="#"><i class="icon-youtube"></i></a>
 							</p>
 							<p>Copyright 2016 Free Html5 <a href="#">Module</a>. All Rights Reserved. <br>Made with <i class="icon-heart3"></i> by <a href="http://freehtml5.co/" target="_blank">Freehtml5.co</a> / Demo Images: <a href="https://unsplash.com/" target="_blank">Unsplash</a></p>
-						</div>-->
+						-->
+						</div>
 					</div>
 				</div>
 			</div>
+			<script>
+				window.addEventListener("load", function() {
+				const form = document.getElementById('rsvp');
+				form.addEventListener("submit", function(e) {
+					e.preventDefault();
+					const data = new FormData(form);
+					const action = e.target.action;
+					fetch(action, {
+					method: 'POST',
+					body: data,
+					})
+					.then(() => {
+					alert("Obrigado!");
+					form.reset();
+					closeForm1();
+					})
+				});
+				});
+
+			</script>
 
 			<style>
 				#footer .ft {
