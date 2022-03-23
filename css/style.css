@@ -711,7 +711,7 @@ background-image: url(../images/STDlado.jpg);
 }
 
 #fh5co-started .form-control {
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(104, 104, 104, 0.5);
   border: none !important;
   color: #fff;
   font-size: 16px !important;
@@ -740,7 +740,7 @@ background-image: url(../images/STDlado.jpg);
 }
 
 #fh5co-started .form-control:focus {
-  background: rgba(255, 255, 255, 0.3);
+  background: rgba(104, 104, 104, 0.781);
 }
 
 #fh5co-started .btn-block {
