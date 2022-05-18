@@ -155,7 +155,7 @@
 							<div class="wedding-events">
 							<p>A todos os que quiserem ajudar-nos neste novo início, ficamos muito agradecidos. Da viagem à nossa casa, onde iremos querer receber-vos num futuro muito próximo.</p>
 								<p><strong>IBAN: PT50 0269 0113 00200560232 37</strong>
-								<br><strong><strong>MBWAY: 919 638 879</strong></strong></p></div>
+								</p></div>
 								<!--<p><strong>Nome: Maria Sofia Vaz Ramires G da Costa</strong></p>-->
 						</div>
 					</div>
